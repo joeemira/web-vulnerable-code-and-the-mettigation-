@@ -16,7 +16,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
     $stmt->close();
 }
 
-
+// --------------------------------------------for further information you can visit https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html --------------------------//
 /*
 stmt = $conn->prepare("SELECT * FROM users WHERE username = ? AND password = ?");
 Preparation: The prepare method prepares the SQL query with placeholders (?) instead of directly embedding user inputs.
